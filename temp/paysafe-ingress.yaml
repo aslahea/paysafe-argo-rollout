@@ -1,0 +1,30 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: paysafe-ingress
+  namespace: paysafe
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: paysafe.local
+    http:
+      paths:
+      # FRONTEND
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: paysafe-frontend
+            port:
+              number: 80
+
+      # BACKEND
+      - path: /api(/|$)(.*)
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: paysafe-backend
+            port:
+              number: 5000

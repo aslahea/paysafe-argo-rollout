@@ -1,0 +1,17 @@
+namespace: paysafe
+
+frontend:
+  image:
+    repository: aslahea/paysafe-frontend
+    tag: v1
+  service:
+    port: 80
+
+backend:
+  image:
+    repository: aslahea/paysafe-backend
+    tag: v1
+  service:
+    port: 5000
+
+replicaCount: 2

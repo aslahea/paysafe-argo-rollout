@@ -1,0 +1,30 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: paysafe-backend
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  strategy:
+    canary:
+      steps:
+        - setWeight: 20
+        - pause: {}
+        - setWeight: 50
+        - pause: {}
+  selector:
+    matchLabels:
+      app: paysafe-backend
+  template:
+    metadata:
+      labels:
+        app: paysafe-backend
+    spec:
+      containers:
+      - name: backend
+        image: aslahea/paysafe-backend:v1
+        ports:
+        - containerPort: 5000
+        env:
+        - name: APP_VERSION
+          value: "{{ .Values.backend.image.tag }}"
