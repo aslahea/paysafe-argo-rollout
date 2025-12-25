@@ -76,3 +76,4 @@ Thu Dec 25 10:37:56 AM IST 2025 - add basic error page for frontend
 Thu Dec 25 10:37:57 AM IST 2025 - configure kubernetes namespace for paysafe
 Thu Dec 25 10:37:58 AM IST 2025 - add resource requests and limits
 Thu Dec 25 10:37:59 AM IST 2025 - add liveness probe for backend
+Thu Dec 25 10:38:00 AM IST 2025 - add readiness probe for backend
