@@ -130,3 +130,4 @@ Thu Dec 25 10:38:51 AM IST 2025 - fix helm rendering issue
 Thu Dec 25 10:38:52 AM IST 2025 - validate helm template output
 Thu Dec 25 10:38:53 AM IST 2025 - add default values for deployment strategy
 Thu Dec 25 10:38:54 AM IST 2025 - improve helm chart documentation
+Thu Dec 25 10:38:55 AM IST 2025 - cleanup helm chart structure
