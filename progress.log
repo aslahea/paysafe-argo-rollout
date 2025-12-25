@@ -125,3 +125,4 @@ Thu Dec 25 10:38:46 AM IST 2025 - convert kubernetes yamls to helm templates
 Thu Dec 25 10:38:47 AM IST 2025 - add helm helpers for naming
 Thu Dec 25 10:38:48 AM IST 2025 - add conditional templates for strategies
 Thu Dec 25 10:38:49 AM IST 2025 - support canary via helm values
+Thu Dec 25 10:38:50 AM IST 2025 - support blue green via helm values
