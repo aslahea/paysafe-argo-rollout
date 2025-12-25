@@ -27,3 +27,4 @@ Thu Dec 25 10:30:04 AM IST 2025 - fix istio destination rule configuration
 Thu Dec 25 10:30:05 AM IST 2025 - clean up virtualservice route naming
 Thu Dec 25 10:30:06 AM IST 2025 - add helm chart for paysafe project
 Thu Dec 25 10:30:07 AM IST 2025 - convert kubernetes yamls to helm templates
+Thu Dec 25 10:30:08 AM IST 2025 - add values.yaml for image management
