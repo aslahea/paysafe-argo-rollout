@@ -25,3 +25,4 @@ Thu Dec 25 10:30:02 AM IST 2025 - fix backend api response based on version
 Thu Dec 25 10:30:03 AM IST 2025 - debug no healthy upstream issue
 Thu Dec 25 10:30:04 AM IST 2025 - fix istio destination rule configuration
 Thu Dec 25 10:30:05 AM IST 2025 - clean up virtualservice route naming
+Thu Dec 25 10:30:06 AM IST 2025 - add helm chart for paysafe project
