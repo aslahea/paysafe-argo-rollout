@@ -121,3 +121,4 @@ Thu Dec 25 10:38:42 AM IST 2025 - rollback blue green deployment
 Thu Dec 25 10:38:43 AM IST 2025 - test rollback stability
 Thu Dec 25 10:38:44 AM IST 2025 - cleanup old replicasets
 Thu Dec 25 10:38:45 AM IST 2025 - verify rollout history
+Thu Dec 25 10:38:46 AM IST 2025 - convert kubernetes yamls to helm templates
