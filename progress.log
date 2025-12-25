@@ -35,3 +35,4 @@ Thu Dec 25 10:30:12 AM IST 2025 - add active and preview services
 Thu Dec 25 10:30:13 AM IST 2025 - disable auto promotion for blue green
 Thu Dec 25 10:30:14 AM IST 2025 - test preview service manually
 Thu Dec 25 10:30:15 AM IST 2025 - promote blue green deployment manually
+Thu Dec 25 10:30:16 AM IST 2025 - verify zero downtime deployment
