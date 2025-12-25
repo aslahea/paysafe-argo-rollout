@@ -38,3 +38,4 @@ Thu Dec 25 10:30:15 AM IST 2025 - promote blue green deployment manually
 Thu Dec 25 10:30:16 AM IST 2025 - verify zero downtime deployment
 Thu Dec 25 10:30:17 AM IST 2025 - fix mixed traffic issue in blue green
 Thu Dec 25 10:30:18 AM IST 2025 - correct istio virtualservice for blue green
+Thu Dec 25 10:30:19 AM IST 2025 - clean up service selectors
