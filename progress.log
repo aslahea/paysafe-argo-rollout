@@ -109,3 +109,4 @@ Thu Dec 25 10:38:29 AM IST 2025 - verify rollback behavior
 Thu Dec 25 10:38:30 AM IST 2025 - add blue green rollout strategy
 Thu Dec 25 10:38:31 AM IST 2025 - add active service for blue green
 Thu Dec 25 10:38:32 AM IST 2025 - add preview service for blue green
+Thu Dec 25 10:38:33 AM IST 2025 - disable auto promotion for blue green
