@@ -68,3 +68,4 @@ Thu Dec 25 10:37:48 AM IST 2025 - cleanup unused python files
 Thu Dec 25 10:37:49 AM IST 2025 - add dockerignore for backend image
 Thu Dec 25 10:37:50 AM IST 2025 - reduce backend docker image size
 Thu Dec 25 10:37:51 AM IST 2025 - add multi stage docker build
+Thu Dec 25 10:37:52 AM IST 2025 - optimize frontend docker image
