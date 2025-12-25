@@ -33,3 +33,4 @@ Thu Dec 25 10:30:10 AM IST 2025 - support blue green strategy via helm values
 Thu Dec 25 10:30:11 AM IST 2025 - add blue green rollout configuration
 Thu Dec 25 10:30:12 AM IST 2025 - add active and preview services
 Thu Dec 25 10:30:13 AM IST 2025 - disable auto promotion for blue green
+Thu Dec 25 10:30:14 AM IST 2025 - test preview service manually
