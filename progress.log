@@ -105,3 +105,4 @@ Thu Dec 25 10:38:25 AM IST 2025 - test 25 percent canary traffic
 Thu Dec 25 10:38:26 AM IST 2025 - test 50 percent canary traffic
 Thu Dec 25 10:38:27 AM IST 2025 - complete canary promotion
 Thu Dec 25 10:38:28 AM IST 2025 - abort canary rollout on failure
+Thu Dec 25 10:38:29 AM IST 2025 - verify rollback behavior
