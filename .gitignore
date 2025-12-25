@@ -1,0 +1,75 @@
+##################################
+# Python
+##################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.env
+.env.*
+venv/
+ENV/
+pyvenv.cfg
+
+##################################
+# Virtual Environment (your case)
+##################################
+backend/venv/
+
+##################################
+# Logs & temp files
+##################################
+*.log
+progress.log
+*.tmp
+*.swp
+*.bak
+
+##################################
+# Docker
+##################################
+*.tar
+*.tar.gz
+docker-compose.override.yml
+
+##################################
+# Kubernetes / Helm
+##################################
+*.tgz
+charts/
+helm/paysafe/charts/
+helm/paysafe/*.lock
+*.release.yaml
+
+##################################
+# Argo / Istio generated
+##################################
+istioctl-install.log
+
+##################################
+# OS / Editor
+##################################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+##################################
+# Git
+##################################
+.git/
+.gitmodules
+.gitignore~
+
+##################################
+# Node (future safety)
+##################################
+node_modules/
+
+##################################
+# Backup / temp folders
+##################################
+temp/
+
