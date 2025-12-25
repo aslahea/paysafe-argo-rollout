@@ -94,3 +94,4 @@ Thu Dec 25 10:38:14 AM IST 2025 - disable strict mTLS for debugging
 Thu Dec 25 10:38:15 AM IST 2025 - re enable mTLS after fix
 Thu Dec 25 10:38:16 AM IST 2025 - add argo rollouts crds
 Thu Dec 25 10:38:17 AM IST 2025 - verify argo rollouts controller running
+Thu Dec 25 10:38:18 AM IST 2025 - replace deployment with rollout resource
