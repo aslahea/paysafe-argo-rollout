@@ -1,0 +1,13 @@
+{{- if eq .Values.deploymentStrategy "bluegreen" }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: paysafe-backend-active
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    app: paysafe-backend
+  ports:
+  - port: {{ .Values.backend.service.port }}
+    targetPort: {{ .Values.backend.service.port }}
+{{- end }}

@@ -1,0 +1,13 @@
+{{- if eq .Values.deploymentStrategy "canary" }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "paysafe.backendName" . }}
+  namespace: {{ .Values.namespace }}
+spec:
+  selector:
+    app: {{ include "paysafe.backendName" . }}
+  ports:
+    - port: {{ .Values.backend.service.port }}
+      targetPort: {{ .Values.backend.service.port }}
+{{- end }}

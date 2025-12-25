@@ -1,14 +1,9 @@
+{{- if eq .Values.deploymentStrategy "canary" }}
 apiVersion: networking.istio.io/v1beta1
 kind: DestinationRule
 metadata:
   name: paysafe-backend
-  namespace: paysafe
+  namespace: {{ .Values.namespace }}
 spec:
   host: paysafe-backend
-  subsets:
-  - name: stable
-    labels:
-      version: v1
-  - name: canary
-    labels:
-      version: v2
+{{- end }}

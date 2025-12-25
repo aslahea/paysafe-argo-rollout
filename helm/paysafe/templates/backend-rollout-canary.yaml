@@ -1,0 +1,55 @@
+{{- if eq .Values.deploymentStrategy "canary" }}
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
+metadata:
+  name: paysafe-backend
+  namespace: {{ .Values.namespace }}
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: paysafe-backend
+
+  strategy:
+    canary:
+      stableService: paysafe-backend
+      canaryService: paysafe-backend-canary
+
+      trafficRouting:
+        istio:
+          virtualService:
+            name: paysafe-vs
+            routes:
+              - default
+
+      steps:
+        - setWeight: 1
+        - pause: { duration: 60 }
+
+        - setWeight: 5
+        - pause: { duration: 60 }
+
+        - setWeight: 10
+        - pause: { duration: 60 }
+
+        - setWeight: 25
+        - pause: { duration: 60 }
+
+        - setWeight: 50
+        - pause: { duration: 60 }
+
+        - setWeight: 100
+
+  template:
+    metadata:
+      labels:
+        app: paysafe-backend
+    spec:
+      containers:
+        - name: backend
+          image: "aslahea/paysafe-backend:{{ .Values.backend.image.tag }}"
+          env:
+            - name: APP_VERSION
+              value: {{ .Values.backend.image.tag | quote }}
+{{- end }}

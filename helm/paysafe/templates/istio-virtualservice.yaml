@@ -1,0 +1,39 @@
+{{- if eq .Values.deploymentStrategy "canary" }}
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: paysafe-vs
+  namespace: paysafe
+spec:
+  hosts:
+    - paysafe.local
+  gateways:
+    - paysafe-gateway
+
+  http:
+  - name: default
+    match:
+      - uri:
+          prefix: /api
+    rewrite:
+      uri: /
+    route:
+      - destination:
+          host: paysafe-backend
+          port:
+            number: 5000
+        weight: 100
+      - destination:
+          host: paysafe-backend-canary
+          port:
+            number: 5000
+        weight: 0
+  - match:
+      - uri:
+          prefix: /
+    route:
+      - destination:
+          host: paysafe-frontend
+          port:
+            number: 80
+{{- end }}
