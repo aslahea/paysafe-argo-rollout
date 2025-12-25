@@ -5,7 +5,7 @@ replicaCount: 2
 backend:
   image:
     repository: aslahea/paysafe-backend
-    tag: v2   
+    tag: v1
   service:
     port: 5000
 
@@ -19,4 +19,4 @@ frontend:
 istio:
   host: paysafe.local
 
-deploymentStrategy: bluegreen 
+deploymentStrategy: canary 

@@ -13,7 +13,7 @@ spec:
   http:
   - match:
       - uri:
-          prefix: /api
+          prefix: /api/blue
     rewrite:
       uri: /
     route:
@@ -21,7 +21,18 @@ spec:
           host: paysafe-backend-active
           port:
             number: 5000
-            
+  
+  - match:
+      - uri:
+          prefix: /api/green
+    rewrite:
+      uri: /
+    route:
+      - destination:
+          host: paysafe-backend-preview
+          port:
+            number: 5000
+
   - match:
       - uri:
           prefix: /
