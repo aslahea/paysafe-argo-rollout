@@ -86,3 +86,4 @@ Thu Dec 25 10:38:06 AM IST 2025 - verify istio proxy injection
 Thu Dec 25 10:38:07 AM IST 2025 - fix gateway host configuration
 Thu Dec 25 10:38:08 AM IST 2025 - fix virtualservice host mismatch
 Thu Dec 25 10:38:09 AM IST 2025 - add http rewrite rule for api path
+Thu Dec 25 10:38:10 AM IST 2025 - debug 404 issue in istio routing
