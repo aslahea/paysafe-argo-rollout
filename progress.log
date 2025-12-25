@@ -89,3 +89,4 @@ Thu Dec 25 10:38:09 AM IST 2025 - add http rewrite rule for api path
 Thu Dec 25 10:38:10 AM IST 2025 - debug 404 issue in istio routing
 Thu Dec 25 10:38:11 AM IST 2025 - fix no healthy upstream error
 Thu Dec 25 10:38:12 AM IST 2025 - add destination rule for backend service
+Thu Dec 25 10:38:13 AM IST 2025 - configure mTLS mode for istio traffic
