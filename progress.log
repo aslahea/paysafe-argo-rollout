@@ -18,3 +18,4 @@ Thu Dec 25 10:29:55 AM IST 2025 - add pause steps to canary rollout
 Thu Dec 25 10:29:56 AM IST 2025 - extend canary steps to 25 percent
 Thu Dec 25 10:29:57 AM IST 2025 - extend canary steps to 50 percent
 Thu Dec 25 10:29:58 AM IST 2025 - finalize canary promotion to 100 percent
+Thu Dec 25 10:29:59 AM IST 2025 - add rollback support for canary failures
