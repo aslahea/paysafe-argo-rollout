@@ -128,3 +128,4 @@ Thu Dec 25 10:38:49 AM IST 2025 - support canary via helm values
 Thu Dec 25 10:38:50 AM IST 2025 - support blue green via helm values
 Thu Dec 25 10:38:51 AM IST 2025 - fix helm rendering issue
 Thu Dec 25 10:38:52 AM IST 2025 - validate helm template output
+Thu Dec 25 10:38:53 AM IST 2025 - add default values for deployment strategy
