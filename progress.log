@@ -5,3 +5,4 @@ Thu Dec 25 10:29:41 AM IST 2025 - dockerize backend service
 Thu Dec 25 10:29:43 AM IST 2025 - dockerize frontend service
 Thu Dec 25 10:29:44 AM IST 2025 - add kubernetes manifests for backend
 Thu Dec 25 10:29:45 AM IST 2025 - add kubernetes manifests for frontend
+Thu Dec 25 10:29:46 AM IST 2025 - setup istio gateway for paysafe
