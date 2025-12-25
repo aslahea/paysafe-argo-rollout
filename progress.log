@@ -2,3 +2,4 @@ Thu Dec 25 10:29:38 AM IST 2025 - init project structure for paysafe app
 Thu Dec 25 10:29:39 AM IST 2025 - add backend flask api skeleton
 Thu Dec 25 10:29:40 AM IST 2025 - add frontend static html page
 Thu Dec 25 10:29:41 AM IST 2025 - dockerize backend service
+Thu Dec 25 10:29:43 AM IST 2025 - dockerize frontend service
