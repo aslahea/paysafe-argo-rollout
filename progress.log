@@ -47,3 +47,4 @@ Thu Dec 25 10:30:24 AM IST 2025 - improve project readability
 Thu Dec 25 10:30:25 AM IST 2025 - final testing of canary deployment
 Thu Dec 25 10:30:26 AM IST 2025 - final testing of blue green deployment
 Thu Dec 25 10:30:27 AM IST 2025 - validate rollout status via argo cli
+Thu Dec 25 10:30:28 AM IST 2025 - prepare project for review demo
