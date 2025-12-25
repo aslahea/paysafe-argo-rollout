@@ -83,3 +83,4 @@ Thu Dec 25 10:38:03 AM IST 2025 - rename backend service for clarity
 Thu Dec 25 10:38:04 AM IST 2025 - cleanup duplicate service definitions
 Thu Dec 25 10:38:05 AM IST 2025 - add istio sidecar injection label
 Thu Dec 25 10:38:06 AM IST 2025 - verify istio proxy injection
+Thu Dec 25 10:38:07 AM IST 2025 - fix gateway host configuration
