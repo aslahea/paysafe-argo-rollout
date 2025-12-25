@@ -92,3 +92,4 @@ Thu Dec 25 10:38:12 AM IST 2025 - add destination rule for backend service
 Thu Dec 25 10:38:13 AM IST 2025 - configure mTLS mode for istio traffic
 Thu Dec 25 10:38:14 AM IST 2025 - disable strict mTLS for debugging
 Thu Dec 25 10:38:15 AM IST 2025 - re enable mTLS after fix
+Thu Dec 25 10:38:16 AM IST 2025 - add argo rollouts crds
