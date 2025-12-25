@@ -64,3 +64,4 @@ Thu Dec 25 10:37:44 AM IST 2025 - add environment based config loading
 Thu Dec 25 10:37:45 AM IST 2025 - refactor backend app structure
 Thu Dec 25 10:37:46 AM IST 2025 - add requirements file for backend
 Thu Dec 25 10:37:47 AM IST 2025 - pin python dependency versions
+Thu Dec 25 10:37:48 AM IST 2025 - cleanup unused python files
