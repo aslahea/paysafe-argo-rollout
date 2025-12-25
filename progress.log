@@ -115,3 +115,4 @@ Thu Dec 25 10:38:35 AM IST 2025 - fix active service selector issue
 Thu Dec 25 10:38:36 AM IST 2025 - fix role label mismatch issue
 Thu Dec 25 10:38:37 AM IST 2025 - cleanup blue green service selectors
 Thu Dec 25 10:38:38 AM IST 2025 - verify blue green promotion flow
+Thu Dec 25 10:38:40 AM IST 2025 - promote blue green deployment manually
