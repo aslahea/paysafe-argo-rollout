@@ -132,3 +132,4 @@ Thu Dec 25 10:38:53 AM IST 2025 - add default values for deployment strategy
 Thu Dec 25 10:38:54 AM IST 2025 - improve helm chart documentation
 Thu Dec 25 10:38:55 AM IST 2025 - cleanup helm chart structure
 Thu Dec 25 10:38:56 AM IST 2025 - final testing on staging cluster
+Thu Dec 25 10:38:57 AM IST 2025 - prepare demo for review
