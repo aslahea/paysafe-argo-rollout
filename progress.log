@@ -73,3 +73,4 @@ Thu Dec 25 10:37:53 AM IST 2025 - add nginx config for frontend
 Thu Dec 25 10:37:54 AM IST 2025 - fix frontend routing issue
 Thu Dec 25 10:37:55 AM IST 2025 - improve frontend ui layout
 Thu Dec 25 10:37:56 AM IST 2025 - add basic error page for frontend
+Thu Dec 25 10:37:57 AM IST 2025 - configure kubernetes namespace for paysafe
