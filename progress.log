@@ -42,3 +42,4 @@ Thu Dec 25 10:30:19 AM IST 2025 - clean up service selectors
 Thu Dec 25 10:30:20 AM IST 2025 - refactor helm conditional templates
 Thu Dec 25 10:30:21 AM IST 2025 - organize helm chart structure
 Thu Dec 25 10:30:22 AM IST 2025 - add rollback documentation notes
+Thu Dec 25 10:30:23 AM IST 2025 - add deployment workflow documentation
