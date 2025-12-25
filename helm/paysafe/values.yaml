@@ -19,4 +19,4 @@ frontend:
 istio:
   host: paysafe.local
 
-deploymentStrategy: canary 
+deploymentStrategy: bluegreen 
