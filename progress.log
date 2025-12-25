@@ -81,3 +81,4 @@ Thu Dec 25 10:38:01 AM IST 2025 - fix readiness probe failure issue
 Thu Dec 25 10:38:02 AM IST 2025 - configure kubernetes services correctly
 Thu Dec 25 10:38:03 AM IST 2025 - rename backend service for clarity
 Thu Dec 25 10:38:04 AM IST 2025 - cleanup duplicate service definitions
+Thu Dec 25 10:38:05 AM IST 2025 - add istio sidecar injection label
