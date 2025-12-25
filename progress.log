@@ -11,3 +11,4 @@ Thu Dec 25 10:29:48 AM IST 2025 - fix api routing using istio rewrite rules
 Thu Dec 25 10:29:49 AM IST 2025 - add argo rollouts controller installation
 Thu Dec 25 10:29:50 AM IST 2025 - replace deployment with argo rollout
 Thu Dec 25 10:29:51 AM IST 2025 - configure canary rollout strategy
+Thu Dec 25 10:29:52 AM IST 2025 - add stable and canary services
