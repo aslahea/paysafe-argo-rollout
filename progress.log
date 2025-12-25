@@ -58,3 +58,4 @@ Thu Dec 25 10:37:38 AM IST 2025 - add gitignore for python and docker artifacts
 Thu Dec 25 10:37:39 AM IST 2025 - add flask health endpoint
 Thu Dec 25 10:37:40 AM IST 2025 - add api version endpoint
 Thu Dec 25 10:37:41 AM IST 2025 - improve backend error handling
+Thu Dec 25 10:37:42 AM IST 2025 - add request logging to backend api
